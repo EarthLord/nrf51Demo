@@ -1,6 +1,7 @@
 # Object files
 *.o
 *.ko
+*.d
 
 # Libraries
 *.lib
@@ -16,3 +17,13 @@
 *.exe
 *.out
 *.app
+*.map
+*.elf
+*.hex
+*.bin
+
+# Folders
+doc
+obj
+bin
+build
