@@ -13,7 +13,7 @@ main(void)
 {
 	unsigned int i = 7;
 
-	float ab = 1.2;
+	float ab = 1.29;
 
 	leds_init();
 
