@@ -60,7 +60,7 @@
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.freestanding.794438889" name="Assume freestanding environment (-ffreestanding)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.freestanding"/>
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nobuiltin.1444156482" name="Disable builtin (-fno-builtin)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nobuiltin"/>
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.spconstant.686184995" name="Single precision constants (-fsingle-precision-constant)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.spconstant"/>
-							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.PIC.1056002772" name="Position independednt code (-fPIC)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.PIC"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.PIC.1056002772" name="Position independent code (-fPIC)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.PIC"/>
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.other.1651391331" name="Other optimization flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.other"/>
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1010978212" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" value="GNU Tools for ARM Embedded Processors" valueType="string"/>
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.syntaxonly.1843858668" name="Check syntax only (-fsyntax-only)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.syntaxonly"/>
@@ -94,7 +94,6 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1971221755" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.2028911633" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/nrf51Demo/include}&quot;"/>
-									<listOptionValue builtIn="false" value="/home/prithvi/DevelopmentTools/gcc-arm-none-eabi-4_8-2013q4/bin"/>
 									<listOptionValue builtIn="false" value="/home/prithvi/DevelopmentTools/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1623145123" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>

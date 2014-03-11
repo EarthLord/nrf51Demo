@@ -127,7 +127,7 @@ nrf_clock_set_seconds(unsigned long sec)
  *
  */
 void
-update_expiration_time(clock_time_t expiration_time)
+nrf_clock_update_expiration_time(clock_time_t expiration_time)
 {
   // Enable COMPARE1 event and COMPARE1 interrupt:
   NRF_RTC1->EVTENSET      = RTC_EVTENSET_COMPARE1_Msk;

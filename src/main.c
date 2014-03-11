@@ -25,7 +25,7 @@ main(void)
     clock_init();
     printf(" \r\nStart:\r\n");
     nrf_clock_set_seconds(5);
-    update_expiration_time(327680);
+    nrf_clock_update_expiration_time(327680);
     rtimer_arch_init();
 
   while(true) {
