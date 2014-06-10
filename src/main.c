@@ -7,8 +7,7 @@
 #include "clock-nrf.h"
 #include "rtimer-arch.h"
 
-int
-main(void)
+int main(void)
 {
 	unsigned int i = 7;
 
