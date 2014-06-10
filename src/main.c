@@ -2,7 +2,6 @@
 #include "nrf_delay.h"
 #include "nrf_gpio.h"
 #include "nrf.h"
-#include "clock.h"
 #include "leds.h"
 #include "board.h"
 #include "clock-nrf.h"
